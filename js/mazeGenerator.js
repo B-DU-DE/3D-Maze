@@ -46,7 +46,7 @@ export class MazeGenerator {
 
         this.clearArea(this.startPos.x, this.startPos.y, 2);
         this.clearArea(this.endPos.x, this.endPos.y, 2);
-  
+  //
     }
 
     clearArea(centerX, centerY, radius) {
